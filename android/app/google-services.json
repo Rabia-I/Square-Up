@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629964076438",
+    "project_id": "square-up-cc53a",
+    "storage_bucket": "square-up-cc53a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629964076438:android:6dda17c1d9fa67da7219b7",
+        "android_client_info": {
+          "package_name": "com.example.square_up"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD3PnhcGMMS3Vivtiu8b8hA9oQaHw_SHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
