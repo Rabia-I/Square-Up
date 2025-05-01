@@ -37,7 +37,8 @@ class CommentController extends GetxController {
         DocumentSnapshot userDoc =
             await firestore
                 .collection('users')
-                .doc(authController.user.uid)
+                .doc(authController.user?.uid ?? ''
+)
                 .get();
         var allDocs =
             await firestore
@@ -53,7 +54,8 @@ class CommentController extends GetxController {
           datePublished: DateTime.now(),
           likes: [],
           profilePhoto: (userDoc.data()! as dynamic)['profilePhoto'],
-          uid: authController.user.uid,
+          uid: authController.user?.uid ?? ''
+,
           id: 'Comment $len',
         );
         await firestore
@@ -74,7 +76,8 @@ class CommentController extends GetxController {
   }
 
   likeComment(String id) async {
-    var uid = authController.user.uid;
+    var uid = authController.user?.uid ?? ''
+;
     DocumentSnapshot doc =
         await firestore
             .collection('videos')

@@ -80,7 +80,7 @@ class CommentScreen extends StatelessWidget {
                             Icons.favorite,
                             size: 25,
                             color:
-                                comment.likes.contains(authController.user.uid)
+                                comment.likes.contains(authController.user?.uid ?? '')
                                     ? Colors.red
                                     : Colors.white,
                           ),

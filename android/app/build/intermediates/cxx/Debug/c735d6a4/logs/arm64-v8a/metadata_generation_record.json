@@ -14,7 +14,7 @@
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027C:\\square_up\\android\\app\\.cxx\\Debug\\c735d6a4\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
+    "message_": "JSON \u0027C:\\Projects\\square_up\\android\\app\\.cxx\\Debug\\c735d6a4\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
     "file_": "C:\\src\\flutter\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt",
     "tag_": "profile|arm64-v8a",
     "diagnosticCode_": 0,

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.square_up.app-mergeDebugResources-52:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.example.square_up.app-mergeDebugResources-3:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\f51ed059cb88731cb33b6905403b4364\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-pt-rBR\\values-pt-rBR.xml",

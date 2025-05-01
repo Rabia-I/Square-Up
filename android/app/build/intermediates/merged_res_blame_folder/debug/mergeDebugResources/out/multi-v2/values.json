@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.square_up.app-mergeDebugResources-52:/values/values.xml",
+            "outputFile": "com.example.square_up.app-mergeDebugResources-3:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\2fcb218e3a838025d05f37b2648ca27a\\transformed\\jetified-play-services-base-18.1.0\\res\\values\\values.xml",
@@ -23,6 +23,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Projects\\square_up\\android\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,577",
+                        "endColumns": "81,103,108,119,106,75",
+                        "endOffsets": "132,236,345,465,572,648"
+                    },
+                    "to": {
+                        "startLines": "407,408,409,410,411,412",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "26167,26249,26353,26462,26582,26689",
+                        "endColumns": "81,103,108,119,106,75",
+                        "endOffsets": "26244,26348,26457,26577,26684,26760"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\f87b48a6a50e875362c5a53e7fc9911f\\transformed\\jetified-startup-runtime-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -37,23 +54,6 @@
                         "startOffsets": "22311",
                         "endColumns": "82",
                         "endOffsets": "22389"
-                    }
-                },
-                {
-                    "source": "C:\\square_up\\android\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,577",
-                        "endColumns": "81,103,108,119,106,75",
-                        "endOffsets": "132,236,345,465,572,648"
-                    },
-                    "to": {
-                        "startLines": "407,408,409,410,411,412",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "26167,26249,26353,26462,26582,26689",
-                        "endColumns": "81,103,108,119,106,75",
-                        "endOffsets": "26244,26348,26457,26577,26684,26760"
                     }
                 },
                 {
@@ -107,25 +107,6 @@
                         "startOffsets": "25306,25376,25438,25503,25567,25644,25709,25799,25883",
                         "endColumns": "69,61,64,63,76,64,89,83,68",
                         "endOffsets": "25371,25433,25498,25562,25639,25704,25794,25878,25947"
-                    }
-                },
-                {
-                    "source": "C:\\square_up\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "1503,1507",
-                        "startColumns": "4,4",
-                        "startOffsets": "96329,96510",
-                        "endLines": "1506,1509",
-                        "endColumns": "12,12",
-                        "endOffsets": "96505,96674"
                     }
                 },
                 {
@@ -342,6 +323,25 @@
                         "startOffsets": "22145,22227",
                         "endColumns": "81,83",
                         "endOffsets": "22222,22306"
+                    }
+                },
+                {
+                    "source": "C:\\Projects\\square_up\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "1503,1507",
+                        "startColumns": "4,4",
+                        "startOffsets": "96329,96510",
+                        "endLines": "1506,1509",
+                        "endColumns": "12,12",
+                        "endOffsets": "96505,96674"
                     }
                 }
             ]

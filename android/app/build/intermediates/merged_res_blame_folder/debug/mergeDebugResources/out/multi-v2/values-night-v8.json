@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.square_up.app-mergeDebugResources-52:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.square_up.app-mergeDebugResources-3:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\0c75b9c98478d8e9955ba53eadce1a4e\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\square_up\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Projects\\square_up\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

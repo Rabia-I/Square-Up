@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.square_up.app-mergeDebugResources-52:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.square_up.app-mergeDebugResources-3:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\19e8ff79ca1cf342cd9dd049b079a485\\transformed\\jetified-media3-exoplayer-1.4.1\\res\\values-zh-rHK\\values-zh-rHK.xml",

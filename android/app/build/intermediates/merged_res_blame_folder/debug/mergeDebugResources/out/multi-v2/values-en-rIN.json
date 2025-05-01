@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.square_up.app-mergeDebugResources-52:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.square_up.app-mergeDebugResources-3:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\fbbee864905da2feb0daab3c76b458cf\\transformed\\core-1.13.1\\res\\values-en-rIN\\values-en-rIN.xml",

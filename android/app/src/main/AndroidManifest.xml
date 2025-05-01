@@ -45,6 +45,9 @@
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
     <!-- Microphone -->
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
 
     <!-- For Android 11+ -->
     <queries>

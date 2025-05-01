@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.square_up.app-mergeDebugResources-52:/values-v21/values-v21.xml",
+            "outputFile": "com.example.square_up.app-mergeDebugResources-3:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\fbbee864905da2feb0daab3c76b458cf\\transformed\\core-1.13.1\\res\\values-v21\\values-v21.xml",

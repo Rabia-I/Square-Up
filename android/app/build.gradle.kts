@@ -16,6 +16,16 @@ android {
         targetSdk = 35
         versionCode = flutter.versionCode.toInt()
         versionName = flutter.versionName
+
+        ndk {
+            abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a"))
+        }
+
+        packaging {
+            jniLibs {
+                useLegacyPackaging = true
+            }
+        }
     }
 
     compileOptions {
@@ -30,11 +40,29 @@ android {
     buildTypes {
         getByName("debug") {
             isDebuggable = true
-        }
-        getByName("release") {
             isMinifyEnabled = false
-            isDebuggable = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            isShrinkResources = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    // Add this task to copy APK to Flutter's expected location
+    afterEvaluate {
+        tasks.named("assembleDebug") {
+            doLast {
+                copy {
+                    from("$buildDir/outputs/apk/debug/app-debug.apk")
+                    into("${rootProject.projectDir}/../build/app/outputs/flutter-apk")
+                    rename { "app-debug.apk" }
+                }
+            }
         }
     }
 }
