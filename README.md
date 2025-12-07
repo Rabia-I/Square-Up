@@ -1,4 +1,4 @@
-Square-Up: A TikTok-Style Social Media Platform
+Square-Up: An Engaging Debating Platform with Talking AI
 
 Author: Rabia Imran | Advisor: Professor Dr. Rafaqat Alam | University: Lahore Garrison University
 GitHub Repository: https://github.com/Rabia-I/Square-Up
