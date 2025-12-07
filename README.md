@@ -86,7 +86,7 @@ xml
 ## Step 6: Run the Application
 bash
 
-# Run on connected device/emulator
+## Run on connected device/emulator
 flutter run
 
 # Platform-specific runs
