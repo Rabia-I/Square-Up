@@ -19,22 +19,6 @@ State Management	GetX	Reactive state and route management
 Social Interactions	Firestore Arrays	Likes, comments, shares, and user following
 
 
-📁 Repository Structure
-text
-Square-Up/
-├── lib/
-│   ├── controllers/          # GetX controllers (auth, video, upload, live)
-│   ├── views/               # All UI screens (login, home, profile, live)
-│   ├── models/              # Data models (User, Video, Comment)
-│   ├── constants.dart       # Firebase & Cloudinary configuration
-│   └── main.dart            # App entry point
-├── android/                 # Android-specific files
-├── ios/                    # iOS-specific files
-├── web/                    # Web support configuration
-├── pubspec.yaml            # Flutter dependencies
-└── README.md               # This file
-
-
 ⚙️ Setup & Installation:
 
 Prerequisites:
