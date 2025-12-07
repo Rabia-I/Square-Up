@@ -1,13 +1,14 @@
 Square-Up: A TikTok-Style Social Media Platform
+
 Author: Rabia Imran | Advisor: Professor Dr. Rafaqat Alam | University: Lahore Garrison University
 GitHub Repository: https://github.com/Rabia-I/Square-Up
 
-📌 Overview
+## Overview
 Square-Up is a full-featured, Flutter-based short-video social media platform inspired by TikTok. It features a vertical video feed, live streaming with WebRTC, real-time messaging, user profiles, and interactive social features—all built with a scalable Firebase backend and modern state management (GetX).
 
 This project served as my Final Year Project (FYP), demonstrating end-to-end development of a production-grade mobile application with complex real-time interactions.
 
-✨ Key Features:
+## Key Features:
 
 Feature	Technology Used	Description
 Vertical Video Feed	Flutter, video_player, PageView	TikTok-like infinite scroll with smooth playback
@@ -19,9 +20,9 @@ State Management	GetX	Reactive state and route management
 Social Interactions	Firestore Arrays	Likes, comments, shares, and user following
 
 
-⚙️ Setup & Installation:
+## Setup & Installation:
 
-Prerequisites:
+# Prerequisites:
 
 Ensure you have the following installed:
 
@@ -32,15 +33,16 @@ Firebase Account (for authentication and database)
 Cloudinary Account (for media hosting)
 
 
-Step 1: Clone the Repository
+# Step 1: Clone the Repository
 bash
 git clone https://github.com/Rabia-I/Square-Up.git
 cd Square-Up
 
-Step 2: Install Dependencies
+# Step 2: Install Dependencies
 bash
 flutter pub get
-Step 3: Firebase Configuration
+
+# Step 3: Firebase Configuration
 Create a Firebase Project at console.firebase.google.com
 
 Enable Authentication (Email/Password method)
@@ -53,7 +55,7 @@ Android: Place google-services.json in android/app/
 
 iOS: Place GoogleService-Info.plist in ios/Runner/ via Xcode
 
-Step 4: Cloudinary Configuration
+# Step 4: Cloudinary Configuration
 Sign up at cloudinary.com
 
 Create a cloud named square_up (or note your cloud name)
@@ -64,7 +66,7 @@ lib/controllers/auth_controller.dart (line ~19)
 
 lib/controllers/upload_video_controller.dart (line ~12)
 
-Step 5: Platform-Specific Setup
+# Step 5: Platform-Specific Setup
 Android
 Ensure minSdkVersion is 21 or higher in android/app/build.gradle
 
@@ -92,7 +94,7 @@ flutter run -d chrome
 🚀 Verification & Testing
 To confirm the app is fully functional, perform these smoke tests:
 
-Authentication
+## Authentication
 
 Register a new account with email/password and profile photo.
 
@@ -124,7 +126,7 @@ Like, comment, and share a video.
 
 Verify counts update in Firestore.
 
-📊 Technical Architecture Highlights
+## Technical Architecture Highlights
 State Management
 GetX for reactive UI updates and dependency injection.
 
@@ -145,14 +147,15 @@ Metadata (URLs, likes, comments) stored in Firestore
 
 Delivered to feed via VideoPlayer widget
 
-🔧 Troubleshooting
+## Troubleshooting
 Issue	Solution
 Firebase not connecting	Run flutter clean and re-add config files
 Android build failures	Update Gradle, ensure google-services.json is present
 iOS pod install errors	Run pod repo update in ios/ directory
 Cloudinary upload fails	Verify cloud name and API keys in controllers
 Live stream not working	Check Agora token and channel name configuration
-📈 Evaluation & Results
+
+## Evaluation & Results
 This project successfully demonstrates:
 
 ✅ Full-stack Flutter development with Firebase integration
@@ -171,7 +174,7 @@ Live stream latency: <500ms
 
 App size: ~35MB (Android release build)
 
-📚 Future Work
+## Future Work
 Implement video monetization (ads, subscriptions)
 
 Add AI-based content recommendations
@@ -180,10 +183,10 @@ Expand to desktop/web using Flutter 3.0
 
 Integrate analytics for user engagement tracking
 
-📄 License
+## License
 This project is for academic purposes. All rights reserved by Rabia Imran (2024).
 
-📞 Contact
+## Contact
 Rabia Imran
 
 GitHub: Rabia-I
